@@ -25,26 +25,51 @@ h1 span{
     animation: animate 2s linear infinite;
 }
 
+h1 span:nth-child(1){
+    animation-delay: 0s;
+}
+
+h1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+
+h1 span:nth-child(3){
+    animation-delay: 0.5s;
+}
+
+h1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+
+h1 span:nth-child(5){
+    animation-delay: 1.05s;
+}
+
+h1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+
+h1 span:nth-child(7){
+    animation-delay: 1.5s;
+}
+
 @keyframes animate{
     0%,100%{
         color: #fff;
         filter: blur(2px);
-        box-shadow: 0 0 10px #e8fc04,
+        text-shadow: 0 0 10px #e8fc04,
                     0 0 20px #e8fc04,
                     0 0 40px #e8fc04,
                     0 0 80px #e8fc04,
-                    0 0 120px #e8fc04,
                     0 0 200px #e8fc04,
                     0 0 300px #e8fc04,
-                    0 0 400px #e8fc04,
-                    0 0 500px #e8fc04,
-                    0 0 600px #e8fc04,
-                    0 0 700px #e8fc04;        
+                    0 0 400px #e8fc04,       
       
     }
 
     5%,95%{
         color: #111;
         filter: blur(0px);
+        text-shadow: none;
     }
 }
