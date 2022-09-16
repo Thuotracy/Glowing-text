@@ -42,7 +42,7 @@ h1 span:nth-child(4){
 }
 
 h1 span:nth-child(5){
-    animation-delay: 1.05s;
+    animation-delay: 1s;
 }
 
 h1 span:nth-child(6){
@@ -53,18 +53,18 @@ h1 span:nth-child(7){
     animation-delay: 1.5s;
 }
 
+
 @keyframes animate{
     0%,100%{
         color: #fff;
         filter: blur(2px);
-        text-shadow: 0 0 10px #e8fc04,
-                    0 0 20px #e8fc04,
-                    0 0 40px #e8fc04,
-                    0 0 80px #e8fc04,
-                    0 0 200px #e8fc04,
-                    0 0 300px #e8fc04,
-                    0 0 400px #e8fc04,       
-      
+        text-shadow: 0 0 10px #fc0457,
+                    0 0 20px #fc0457,
+                    0 0 40px #fc0457,
+                    0 0 80px #fc0457,
+                    0 0 120px #fc0457,
+                    0 0 200px #fc0457,
+                    0 0 300px #fc0457;         
     }
 
     5%,95%{
