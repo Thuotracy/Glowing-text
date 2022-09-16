@@ -10,3 +10,10 @@ body{
     font-family: 'Bad Script', cursive;
     background: black;
 }
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 14em;
+}
