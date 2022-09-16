@@ -15,5 +15,11 @@ h1{
     margin: 0;
     padding: 0;
     color: #111;
-    font-size: 14em;
+    font-size: 10em;
+}
+
+h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
 }
