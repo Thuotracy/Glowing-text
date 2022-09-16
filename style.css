@@ -22,4 +22,29 @@ h1 span{
     display: table-cell;
     margin: 0;
     padding: 0;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        color: #fff;
+        filter: blur(2px);
+        box-shadow: 0 0 10px #e8fc04,
+                    0 0 20px #e8fc04,
+                    0 0 40px #e8fc04,
+                    0 0 80px #e8fc04,
+                    0 0 120px #e8fc04,
+                    0 0 200px #e8fc04,
+                    0 0 300px #e8fc04,
+                    0 0 400px #e8fc04,
+                    0 0 500px #e8fc04,
+                    0 0 600px #e8fc04,
+                    0 0 700px #e8fc04;        
+      
+    }
+
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+    }
 }
